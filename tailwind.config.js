@@ -7,7 +7,7 @@ module.exports = {
         "accent": "#ee560b"
       },
       backgroundImage: {
-        'testimonials': "url('/assets/testimonials.jpg')"
+        'testimonials': "url('../public/assets/testimonials.jpg')"
       }
     },
   },

@@ -100,3 +100,21 @@ export const waterSportProducts = [
     price: '$250'
   },
 ]
+
+export const testimonials = [
+  {
+    name: 'Emily Carter',
+    occupation: 'Outdoor Enthusiast',
+    message: 'The hiking boots I purchased are top-notch! They’re incredibly comfortable and held up perfectly on my last trek. I’ll definitely be coming back for more gear!'
+  },
+  {
+    name: 'James Reynolds',
+    occupation: 'Professional Climber',
+    message: "I was impressed by the quality of the climbing rope and harness from this store. They’ve made a noticeable difference in my climbing experience. Highly recommend for serious climbers!"
+  },
+  {
+    name: 'Sara Mitchell',
+    occupation: 'Camping Blogger',
+    message: 'The tent and sleeping bag I bought exceeded my expectations. They were both high-quality and made our camping trip so much more enjoyable. This store is my new go-to for camping gear!'
+  },
+]

@@ -6,6 +6,7 @@ import Hiking from './components/sections/Hiking';
 import Camping from './components/sections/Camping';
 import Climbing from './components/sections/Climbing';
 import WaterSports from './components/sections/WaterSports';
+import Testimonials from './components/sections/Testimonials';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Camping />
       <Climbing />
       <WaterSports />
+      <Testimonials />
     </div>
   );
 }
