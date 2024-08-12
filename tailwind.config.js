@@ -5,6 +5,9 @@ module.exports = {
     extend: {
       colors: {
         "accent": "#ee560b"
+      },
+      backgroundImage: {
+        'testimonials': "url('/assets/testimonials.jpg')"
       }
     },
   },

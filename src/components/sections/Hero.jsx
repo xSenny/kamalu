@@ -1,7 +1,6 @@
 import React from 'react'
 import Button from '../Button'
 import { motion } from 'framer-motion'
-import { useScroll } from 'framer-motion'
 
 const Hero = () => {
   return (
@@ -16,7 +15,7 @@ const Hero = () => {
         }}
         transition={{
           duration: 1
-        }} className="font-black text-[20px] md:text-[48px] text-center text-accent">Hiking & Camping <br /> Equipment</motion.h1>
+        }} className="font-black text-[30px] md:text-[48px] text-center text-accent">Hiking & Camping <br /> Equipment</motion.h1>
         <motion.p initial={{
           x: -100,
           opacity: 0
@@ -26,7 +25,7 @@ const Hero = () => {
         }}
         transition={{
           duration: 1
-        }} className="text-[15px] md:text-[24px] text-center">Branded and quality we used product and we give the best</motion.p>
+        }} className="text-[18px] md:text-[24px] text-center">Branded and quality we used product and we give the best</motion.p>
         <Button >Discover More</Button>
       </div>
       <div className='flex w-full items-center justify-center'>
