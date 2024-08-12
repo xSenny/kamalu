@@ -20,3 +20,11 @@ export const navLinks = [
     label: "Contact"
   }
 ]
+
+export const whyTrustUs = [
+  'Branded & Quality',
+  'Affordable Prices',
+  'Faster Support',
+  'Free Training Education',
+  'Available Guide Tours'
+]
