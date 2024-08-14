@@ -7,10 +7,12 @@ import Camping from './components/sections/Camping';
 import Climbing from './components/sections/Climbing';
 import WaterSports from './components/sections/WaterSports';
 import Testimonials from './components/sections/Testimonials';
+import NewsLetter from './components/sections/NewsLetter';
+import Footer from './components/sections/Footer';
 
 function App() {
   return (
-    <div className='flex flex-col gap-16 xl:gap-0 overflow-hidden'>
+    <div className='overflow-hidden'>
       <Header />
       <Hero />
       <CallToAction />
@@ -19,6 +21,8 @@ function App() {
       <Climbing />
       <WaterSports />
       <Testimonials />
+      <NewsLetter />
+      <Footer />
     </div>
   );
 }

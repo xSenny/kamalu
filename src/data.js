@@ -1,3 +1,5 @@
+import { LocateIcon, MailIcon, PhoneCallIcon } from "lucide-react"
+
 export const navLinks = [
   {
     link: "/#hiking",
@@ -16,8 +18,8 @@ export const navLinks = [
     label: "Water sports"
   },
   {
-    link: "/#contact",
-    label: "Contact"
+    link: "/#newsletter",
+    label: "Stay in Touch"
   }
 ]
 
@@ -117,4 +119,38 @@ export const testimonials = [
     occupation: 'Camping Blogger',
     message: 'The tent and sleeping bag I bought exceeded my expectations. They were both high-quality and made our camping trip so much more enjoyable. This store is my new go-to for camping gear!'
   },
+]
+
+export const usefullLinks = [
+  {
+    label: 'Product Hiking',
+    href: '#'
+  },
+  {
+    label: 'Gallery',
+    href: '#'
+  },
+  {
+    label: 'Facilities',
+    href: '#'
+  },
+  {
+    label: 'Rezervation',
+    href: '#'
+  },
+]
+
+export const contactUsData = [
+  {
+    icon: <PhoneCallIcon className="text-accent"/>,
+    text: '+61 089 988 8722'
+  }, 
+  {
+    icon: <MailIcon className="text-accent"/>,
+    text: 'contact@kamalu.com',
+  },
+  {
+    icon: <LocateIcon className="text-accent"/>,
+    text: '890 Street Village, Atalanta, Italy'
+  }
 ]

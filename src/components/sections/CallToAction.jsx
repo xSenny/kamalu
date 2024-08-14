@@ -23,7 +23,7 @@ const CallToAction = () => {
             }}
           className='px-4 py-6 absolute top-0 right-0 bg-accent flex flex-col justify-center items-center font-bold text-4xl text-white'>
             <div>
-              <NumberTicker value={13}/><span>+</span>
+              <NumberTicker value={5}/><span>+</span>
             </div>
             <p className='text-sm font-normal text-center'>Years of experience</p>
           </motion.div>

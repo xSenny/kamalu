@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from '../Button'
 import { motion } from 'framer-motion'
+import { Facebook, Instagram, Twitter } from 'lucide-react'
 
 const Hero = () => {
   return (
@@ -27,6 +28,15 @@ const Hero = () => {
           duration: 1
         }} className="text-[18px] md:text-[24px] text-center">Branded and quality we used product and we give the best</motion.p>
         <Button >Discover More</Button>
+
+        <div className='flex flex-col gap-3 items-center text-accent'>
+          <p className='font-semibold'>Follow us on:</p>
+          <div className='flex flex-wrap justify-center gap-6'>
+            <Facebook />
+            <Instagram />
+            <Twitter />
+          </div>
+        </div>
       </div>
       <div className='flex w-full items-center justify-center'>
         <img src="./assets/hero.png" alt="Hero" className='w-[500px] h-[500px] object-contain rotate-12' />
