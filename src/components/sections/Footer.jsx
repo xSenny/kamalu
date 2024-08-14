@@ -4,7 +4,7 @@ import { contactUsData, usefullLinks } from '../../data'
 
 const Footer = () => {
   return (
-    <footer className='p-12 bg-[#999995] flex justify-center flex-col gap-8 pb-2'>
+    <footer className='p-12 bg-[#999995] flex items-center flex-col gap-8 pb-2'>
 
       <div className='w-full max-w-5xl flex flex-col'>
         <div className='w-full flex justify-center md:justify-between pb-8 border-b-2 border-[#595957]'>
